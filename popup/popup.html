@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-group">
+      <label class="switch-label">
+        <span>Auto Translate</span>
+        <label class="switch">
+          <input type="checkbox" id="autoTranslate">
+          <span class="slider round"></span>
+        </label>
+      </label>
+    </div>
+    
+    <div class="form-group">
+      <label for="modelType">Translator:</label>
+      <select id="modelType">
+        <option value="google">GoogleTranslate (Free)</option>
+        <option value="glm">BigModel GLM (Free)</option>
+        <option value="chatgpt">ChatGPT</option>
+        <option value="deepseek">DeepSeek</option>
+      </select>
+    </div>
+    
+    <div class="form-group" id="apiKeyContainer">
+      <label for="apiKey">API Key:</label>
+      <input type="password" id="apiKey">
+    </div>
+
+    <div class="form-group">
+      <label for="sourceLanguage">Source Language:</label>
+      <select id="sourceLanguage">
+        <option value="auto">Auto</option>
+        <option value="zh">Chinese</option>
+        <option value="en">English</option>
+        <!-- 其他语言选项 -->
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="targetLanguage">Target Language:</label>
+      <select id="targetLanguage">
+        <option value="en">English</option>
+        <option value="zh">Chinese</option>
+        <option value="ja">Japanese</option>
+        <!-- 其他语言选项 -->
+      </select>
+    </div>
+
+    <button id="saveSettings">Save</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
