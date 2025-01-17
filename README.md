@@ -1,4 +1,3 @@
-# xhs-translator-chrome-extension
 【中文描述】
 
 # 小红书翻译助手 (Xiaohongshu Translator)
@@ -8,7 +7,7 @@
 
 ## 主要功能
 - 自动检测并翻译笔记正文和评论
-- 支持多种翻译服务（Google翻译、ChatGPT、DeepSeek）
+- 支持多种翻译服务（Google翻译、ChatGPT、DeepSeek、ZhiPu Big Model）
 - 可自定义源语言和目标语言
 - 翻译结果直观显示在原文下方
 - 支持自动语言检测
