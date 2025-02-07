@@ -5,6 +5,8 @@
 ## 简介
 小红书翻译助手是一个便捷的 Chrome 扩展，可以自动翻译小红书网页版的笔记内容和评论。支持多种翻译服务，让您轻松突破语言障碍。
 
+已上架Google Chrome商店，搜索`Xiaohongshu Translator`即可。
+
 ## 主要功能
 - 自动检测并翻译笔记正文和评论
 - 支持多种翻译服务（Google翻译、ChatGPT、DeepSeek、ZhiPu Big Model）
@@ -31,6 +33,8 @@
 
 ## Introduction
 Xiaohongshu Translator is a convenient Chrome extension that automatically translates notes and comments on Xiaohongshu (RED) web version. It supports multiple translation services to help you overcome language barriers effortlessly.
+
+Search `Xiaohongshu Translator` on Google Chrome Store to install!
 
 ## Key Features
 - Automatic detection and translation of notes and comments
